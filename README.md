@@ -70,3 +70,5 @@ status, empty-title rejection and a fake-client round-trip.
 - Desktop-only (needs the DSH desktop renderer and its Web Notification support).
 - Sound volume/focus-assist is controlled by Windows; the plugin can only choose
   silent vs default sound.
+
+详细设计与排障：见 [docs/desktop-notify.md](docs/desktop-notify.md)。

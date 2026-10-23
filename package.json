@@ -17,7 +17,8 @@
     "README.md",
     "locale/*.json",
     "sounds/*.wav",
-    "icon.svg"
+    "icon.svg",
+    "docs/**"
   ],
   "dsh": {
     "bundle": {
