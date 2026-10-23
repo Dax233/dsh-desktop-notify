@@ -1,0 +1,42 @@
+{
+  "name": "@local/dsh-desktop-notify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows system notifications for the DSH agent: a notify tool plus a renderer half that shows native toasts (with sound) when work finishes or the agent needs attention.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "toast.js",
+    "auto.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json",
+    "sounds/*.wav",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "test": "node --test tests/notify-auto.test.mjs tests/notify-host.test.mjs tests/notify-toast.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dax233/dsh-desktop-notify.git"
+  },
+  "homepage": "https://github.com/Dax233/dsh-desktop-notify#readme",
+  "bugs": {
+    "url": "https://github.com/Dax233/dsh-desktop-notify/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
