@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "系统通知",
+    "description": "让 Agent 在工作完成或需要你关注时弹出原生 Windows 通知（带系统提示音）。"
+  }
+}

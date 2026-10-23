@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Notifications",
+    "description": "Lets the agent show native Windows notifications (with sound) when work finishes or it needs the user's attention."
+  }
+}
